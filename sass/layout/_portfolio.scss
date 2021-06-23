@@ -35,7 +35,7 @@
   }
 
   &__item:not(:first-child) {
-    margin-left: 8px;
+    margin-right: 8px;
     margin-bottom: 15px;
   }
 
@@ -55,7 +55,7 @@
   // flex-wrap: wrap;
 
   &__item {
-    width: 450px;
+    max-width: 450px;
     // height: 404px;
 
     // width: calc((100% - 60px) / 3);

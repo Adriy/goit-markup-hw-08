@@ -1,6 +1,6 @@
 .section.clients {
-  padding-top: 71px;
-  padding-bottom: 49px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .company {
@@ -63,10 +63,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
 
   .company {
     &__link {
@@ -93,7 +89,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .section {
+  .section.clients {
     padding-top: 94px;
     padding-bottom: 94px;
   }
