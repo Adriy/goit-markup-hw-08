@@ -517,7 +517,7 @@ img {
 
 .checkbox-icon {
   position: relative;
-  width: 16px;
+  min-width: 16px;
   height: 15px;
   border: 2px solid var(--title-text-color);
   border-radius: 2px;
