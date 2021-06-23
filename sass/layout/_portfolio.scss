@@ -34,15 +34,15 @@
     }
   }
 
-  &__item:not(:first-child) {
+  &__item {
     margin-right: 8px;
     margin-bottom: 15px;
   }
 
-  &__item:nth-child(4) {
-    margin-left: 0;
-    margin-bottom: 40px;
-  }
+  // &__item:nth-child(4) {
+  //   margin-left: 0;
+  //   margin-bottom: 40px;
+  // }
 
   &__item:nth-child(5) {
     margin-bottom: 40px;
