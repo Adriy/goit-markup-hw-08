@@ -1,7 +1,7 @@
 .team {
   background-color: var(--button-color-portfolio);
 
-  &__description {
+   &__description {
     padding-top: 30px;
     background-color: var(--primary-white-color);
   }
@@ -61,6 +61,7 @@
   .team {
     &__item {
       width: 270px;
+      margin-bottom: 0;
 
       &:not(:last-child) {
         margin-right: 30px;

@@ -1,3 +1,9 @@
+.value.section {
+  padding-bottom: 0;
+}
+
+
+
 .advantages {
   &__text {
     // margin-bottom: 30px;
@@ -7,7 +13,12 @@
     letter-spacing: 0.03em;
 
     color: var(--primary-text-color);
+   
   }
+
+&__item:not(:last-child) {
+  margin-bottom: 30px;
+}
 
   &__thumb {
     display: flex;
@@ -33,6 +44,7 @@
   }
 }
 
+
 @media screen and (min-width: 768px) {
   .advantages {
     display: flex;
@@ -40,6 +52,10 @@
 
     &__item {
       width: 354px;
+
+      &:nth-child(3) {
+        margin-bottom: 0;
+      }     
     }
 
     &__thumb {
@@ -61,8 +77,12 @@
   }
 }
 
+
+
 @media screen and (min-width: 1200px) {
   .advantages {
+margin-bottom: -30px;
+
     &__thumb {
       width: 270px;
     }
@@ -73,6 +93,10 @@
 
     &__item {
       width: 270px;
+    }
+
+    &__text {
+      margin-bottom: 0;
     }
   }
 }

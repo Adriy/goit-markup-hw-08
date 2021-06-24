@@ -126,10 +126,12 @@
 @media screen and (min-width: 1200px) {
   .container-decktop {
     display: flex;
+    align-items: baseline;
   }
 
   .tablet {
     display: flex;
+    align-items: baseline;
     text-align: start;
   }
 
@@ -146,5 +148,9 @@
 
   .footer-title {
     text-align: start;
+  }
+
+  .contacts-nav {
+    margin-bottom: 0;
   }
 }
