@@ -1298,6 +1298,7 @@ img {
   .thumb {
     margin-left: 70px;
     margin-right: 93px;
+    margin-bottom: 0;
   }
   .subscription__input {
     width: 358px;
